@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glass Effect</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Map bare import "three" to CDN so ES modules work in the browser -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.159.0/build/three.module.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><a href="#">NEXUS</a></div>
+      <div class="nav-links">
+        <a href="#">Experiments</a><a href="#">Objects</a
+        ><a href="#">Exhibits</a>
+      </div>
+    </nav>
+
+    <!-- hero section  -->
+    <section class="hero">
+      <!-- keep hidden image as the texture source (supports swap-on-change) -->
+      <img id="glassTexture" crossorigin="anonymous" src="A1.jpg" alt="" />
+      <div class="hero-content">
+        <h1>Enter the Arena Where Every Click Becomes a Battle</h1>
+        <p>Play harder. Level up faster</p>
+      </div>
+    </section>
+
+    <!-- Use ES modules -->
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

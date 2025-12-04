@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+}
+
+.string {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}

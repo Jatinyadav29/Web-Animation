@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-image: url("shinobu-kocho-5120x2880-19754.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px;
+  color: white;
+}
+
+.nav h2 {
+  font-size: 30px;
+}
+
+.nav i {
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.full {
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 0;
+  right: -40%;
+  backdrop-filter: blur(10px);
+  padding: 150px 80px;
+}
+
+.full h4 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.full i {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
